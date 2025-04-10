@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!-- saved from url=(0229)https://alt-5de826c99a8f3.blackboard.com/bbcswebdav/pid-5318285-dt-content-rid-60663219_1/courses/Spr25_CSC_2053_001_002/bootstrap_grid_system.html?one_hash=DB47A96B861C30D199A5DFD10F8BC7B2&f_hash=721F7E5CC3A89366CB984B1D6A7D77F6 -->
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="./bootstrap_grid_system_files/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+  <!--Bootstrap provides rows and columns classes 
+      for spacing elements on the page -->
+  <div class="container">
+    <div class="row">
+      <div class="col">Column 1</div>
+      <div class="col">Column 2</div>
+      <div class="col">Column 3</div>
+      <div class="col">Column 4</div>
+      <div class="col">Column 5</div>
+      <div class="col">Column 6</div>
+      <div class="col">Column 7</div>
+      <div class="col">Column 8</div>
+      <div class="col">Column 9</div>
+      <div class="col">Col 10</div>
+      <div class="col">Col 11</div>
+      <div class="col">Col 12</div>
+    </div>
+
+    <!-- A row can have anywhere from 1 - 12 columns. The row divides column 
+      space evenly amongst the columns. 
+    A row with 2 columns divides the row space in half. -->
+    <div class="row mt-3">
+      <div class="col">A row with 2 columns. Each column takes up half the row</div>
+      <div class="col">A row with 2 columns. Each column takes up half the row</div>
+    </div>
+    <!-- class="row mt-3" gives a margin top of 3. If you'd like a larger margin
+        between your elements use a larger number than 3. -->
+    <div class="row mt-3">
+      <!--this class uses col-6 instead of col. the first column will take 
+          up the space of 6 columns, pushing the second column to the right. 
+          The remaining 2 columns will have the remaining width divided evenly 
+          between them -->
+      <div class="col-6">This column has class, "col-6" meaning this column will take up the space of 6 columns in a 12
+        column system. It takes up half the width of the row.</div>
+      <div class="col">This column starts where column 7 would start in a 12 column system</div>
+      <div class="col">This column and the second column divide the second half of the row evenly.
+        Notice how text wraps if it doesn't fit in the column.
+      </div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col">
+        <p>This is a row with one column. The column takes up
+          the whole row and will not wrap until it hits the end of the row. When will it
+          wrap?????????????????????????????????????????????????????????</p>
+      </div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-5">
+        <p>col</p>
+      </div>
+      <div class="col-2">
+        <p>col</p>
+      </div>
+      <div class="col-5">
+        <p>col</p>
+      </div>
+    </div>
+
+  </div> <!-- end containter -->
+
+
+
+</body>
+
+</html>
